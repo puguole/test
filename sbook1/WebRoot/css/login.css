@@ -1,0 +1,98 @@
+.all{
+	margin:0 auto;
+	width:1308px;
+	height:600px;
+}
+.top{
+	float:left;
+	width:1308px;
+	height:63px; 
+}
+.top span{
+	padding-left: 215px;
+	float:left;
+	display: block;
+}
+.top span img{
+	padding-top: 8px;
+}
+.font_style1{
+	font-style: italic;
+	float:left;
+	line-height: 67px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.tomail{
+	float:right;
+	width:300px;
+	height:43px;
+	padding-right: 115px;
+	padding-top: 15px;
+	font-size: 14px;
+}
+.tomail li{
+	text-align:center;
+	width:80px;
+	border-right:1px solid grey;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float:left;
+}
+.tomail li a{
+	color: grey;
+}
+.middle{
+	width:1308px;
+	height:485px;
+	float:left;
+	background-image:url(../images/login_bg3.png)
+}
+.middle_form{
+	background-color:white;
+	width:300px;
+	height:400px;
+	margin-top:40px;
+	margin-left:816px;
+	display: block;
+}
+.middle_form table{
+	line-height:30px;
+	width:300px;
+	text-align: center;
+}
+.middle_form table input{
+	width:260px;
+	height:30px;
+}
+
+.botton{
+	float:left;
+	width:1308px;
+	height:48px;
+}
+.botton_font{
+	line-height: 48px;
+	padding-left: 150px;
+	color: grey;
+}
+.toservice{
+	float:right;
+	width:490px;
+	height:48px;
+	padding-right: 55px;
+	font-size: 14px;
+}
+.toservice li{
+	width:84px;
+	border-right:1px solid grey;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float:left;
+	text-align:center;
+}
+.toservice li a{
+	color: grey;
+}

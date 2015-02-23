@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/muban.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>编写日志</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="../css/muban.css">
+<link rel="stylesheet" type="text/css" href="../css/log1.css">
+<link rel="stylesheet" type="text/css" href="../css/mail.css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+    <div><img src="../images/logo.png"  width="180" height="90" style="background: #C6D580; display:inline;" /><img src="../images/logo2.png" width="780" usemap="#logo2"/>
+    <map name="logo2" id="planetmap">
+    	<area shape="rect" coords="577,50,610,65" href ="../register/register.html"/>
+        <area shape="rect" coords="627,50,658,65" href ="../login.html"/>
+        <area shape="rect" coords="675,50,704,65" href ="../login.html"/>
+        <area shape="rect" coords="719,50,765,65" href ="#"/>
+	</map>
+    </div>
+    <!--这里将会进行session判断，如何存在session，就不要在移动-->
+    <div style="color:black;  background-color:#E5DFD2; font-size:14px; width:960px; margin-bottom:3px; height:30px;"><hr/><marquee behavior="slide" direction="left">&nbsp;&nbsp;&nbsp;[puguole] 欢迎登录 2014年03月20日 星期四 下午 17:00:32&nbsp;&nbsp;&nbsp;&nbsp; <img src="../images/infor_img.png" height="27" align="absmiddle"/>本站消息：欢迎访问我的同学录网站！在这里我们为你提供最好的沟通服务！</marquee></div>
+<div class="header2">
+    	<ul>
+   			<li><a href="../index/index.html">首页</a></li>
+            <li><a href="log_write.html">写日志</a></li>
+            <li><a href="../mood/mood.html">发心情</a></li>
+            <li><a href="../photo/photo_unload.html">传照片</a></li>
+            <li><a href="../mail/mail_write.html">发邮件</a></li>
+    		<li><a href="../book/book_write.html">写同学录</a></li>
+   		 	<li><a href="">好友</a>
+  <ul>
+                	<li><a href="../friends/friends_list.html">好友列表</a></li>
+                    <li><a href="../friends/friends_search.html">查找好友</a></li>
+                    <li><a href="../friends/friends_recommend.html">推荐好友</a></li>
+                </ul>
+      </li>
+   		 	<li><a href="">通讯助理</a>
+            	<ul>
+                	<li><a href="../talk/talk_write.html">发悄悄话</a></li>
+                    <li><a href="../mail/mail_write.html">发送邮件</a></li>
+                </ul>
+      </li>
+    		<li><a href="">个人资料</a>
+            	<ul>
+                	<li><a href="../personal_info/personal2.html">查看资料</a></li>
+                    <li><a href="../personal_info/personal1.html">编辑资料</a></li>
+                </ul>
+            </li>
+    	</ul>
+    </div>
+    </div>
+  <div class="sidebar1">
+    <ul class="nav" >
+    <li><div style="text-align:center; background-color:#F7F7F7; margin-bottom:5px; font-weight:bold; height:30px; line-height:30px; border-bottom:none;">我的同学录</div></li>
+      <li><a href="../book/book_mine.html"><img src="../images_icon/icon_students.png" width="28" height="23" align="absmiddle" />&nbsp;&nbsp;同学录</a></li>
+      <li><a href="../update/update_mood.html"><img src="../images_icon/icon_trends.png" width="28" height="23" align="absmiddle" />&nbsp;&nbsp;动　态</a></li>
+      <li><a href="../mood/mood.html"><img src="../images_icon/icon_mood.png" width="28" height="23" align="absmiddle" />&nbsp;&nbsp;心　情</a></li>
+      <li><a href="log_friends.html"><img src="../images_icon/icon_log.png" width="28" height="23" align="absmiddle" />&nbsp;&nbsp;日　志</a></li>
+      <li><a href="../photo/photo_mine.html"><img src="../images_icon/icon_photo.png"width="28" height="23" align="absmiddle" />&nbsp;&nbsp;照　片</a></li>
+      <li><a href="../mail/mail_get.html"><img src="../images_icon/icon_mail.png" width="28" height="23" align="absmiddle" />&nbsp;&nbsp;邮　件</a></li>
+      <li><a href="../talk/talk_mine.html"><img src="../images_icon/icon_talk.png" width="28" height="23" align="absmiddle" />&nbsp;&nbsp;悄悄话</a></li>
+    </ul>
+    <div style="margin-bottom:10px;"><img src="../images/gg1.png"/></div>
+    <div style="margin-bottom:10px;"><img src="../images/gg2.png"/></div>
+    <div style="margin-bottom:10px;"><img src="../images/gg3.png"/></div>
+    <div style="margin-bottom:10px;"><img src="../images/gg4.png"/></div>
+    <p>&nbsp;</p>
+    <!-- end .sidebar1 --></div>
+  <div class="content">
+    <!-- InstanceBeginEditable name="可编辑区域" -->
+	<!--写日志-->
+    <link rel="stylesheet" type="text/css" href="../css/log1.css">
+    <script src="FCKeditor_2.6.4.1/fckeditor/fckeditor.js"></script>
+    
+	<div class="log_top">
+    	<div class="log_top_picture"><img src="../images/photo1.png" height="60" width="60"/></div>
+        <div class="log_top_content">
+        <p><b>[puguole]的日志-编辑日志</b></p><hr/>
+        <a href="../personal_info/personal2.html">
+        <p style="color:green">进入puguole的个人资料</p></a>
+        </div>
+    </div>
+    <div class="log_botton">
+    	<div class="log_menu">
+        	<ul>
+            	<li><a href="log_friends.html">好友的最新日志</a></li>
+                <li><a href="log_mine.html">我的日志</a></li>
+                <li style="background-color:white; border-left:1px solid green; border-right:1px solid green; border-top:1px solid green;;"><a href="log_write.html" style="color:black;">发表日志</a></li>
+            </ul>
+        </div>
+        <hr color="#8CDA5C"/>
+        <div class="log3_write">
+        	<div class="log3_write_in">
+            <form action="#" method="post">
+            	<table>
+                    <tr><td style="width:100px;">日志标题：</td><td><input name="title" type="text" size="30" maxlength="15"/> 日志标题不可超过15个字！</td></tr>
+                    <tr><td style="float:left;">日志内容：</td><td>
+                    	<!--用到fckeditor-->
+                        <script>
+							var editor = new FCKeditor( 'content'); //content是textarea的name，有这个了就不需要textarea了
+							editor.BasePath = 'FCKeditor_2.6.4.1/fckeditor/';//路径
+							editor.Heigth = 400;
+							editor.Width=600;
+							editor.ToolbarSet = 'Basic'; //还可以使用'Default'  Basic
+							editor.Create();
+						</script>
+                    </td></tr>
+                    <tr><td>隐私设置：</td><td><select><option value="1" selected="selected">全部用户可见</option><option value="2">只允许好友可见</option><option value="3">只允许自己可见</option></select></td></tr>
+                    <tr><td><input type="submit" value="发表"/></td><td><input type="button" value="存入草稿箱"/></td></tr>
+                    <tr><td colspan="2">小提示：发表日志将会增加你的魅力值哦！</td></tr>
+            	</table>
+            </form>	
+            </div>
+        </div>
+    </div>
+	<!-- InstanceEndEditable -->    <!-- end .content --></div>
+  <div class="footer">
+  <hr style="border:1px solid green;"/>
+  <span style="color:gray; margin-right:240px;">Copyright &copy; 2014 吉首大学软件外包学院Java二班3组版权所有</span>
+  <a href="http://images.5460.net/aboutus/index.htm"target="_blank"> 关于</a> |
+  <a href="http://txl.5460.net/huiju/huodong.html" target="_blank">公益&amp;活动</a> |
+  <a href="http://images.5460.net/pic/us/hr-2008/" target="_blank">招聘</a> |
+  <a href="http://images.5460.net/pic/us/20070716/ad.html"target="_blank">广告</a> | 
+  <a href="/nofilter/help/privacy.jsp">用户隐私</a> | 
+  <a href="http://sns.5460.net/guestbook!showGuest.action">意见反馈</a> | 
+  <a href="/nofilter/help/help_lianxi.jsp">市场合作</a>
+        <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+<!-- InstanceEnd --></html>

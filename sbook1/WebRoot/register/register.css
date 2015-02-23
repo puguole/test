@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#FAF1D4;
+}
+#container{
+	margin:0 auto;
+	width:960px;
+	color:#4A8653;
+	}
+
+#background {
+	background-image: url(../images/reg1.jpg);
+	width:960px;
+	height:625px;
+}
+
+#smallimage {
+	width:330px;
+	height:100px;
+	padding-top:40px;
+	padding-left:50px;
+	margin-left:40px;
+	
+}
+#form {
+	height: 180px;
+	width: 350px;
+	margin-left:40px;
+	padding-top:30px;
+	padding-left:30px;
+	background-color:#F7F5CF;
+}

@@ -1,0 +1,6 @@
+function cleanValue(){
+	
+}
+function getValue(){
+	
+}

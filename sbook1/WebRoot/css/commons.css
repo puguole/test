@@ -1,0 +1,26 @@
+body{
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+}
+a:HOVER {
+	text-decoration: underline;
+}
+.font_style1{
+	color: gray;
+}
+.font_style2{
+	font-size: 13px;
+	color: ##BABDBC;
+}
+.font_style3{
+	font-size: 13px;
+	color: black;
+	float:left;
+	margin-left: 8px;
+}
+.font_style4{
+	color: gray;
+	font-size: 13px;
+}

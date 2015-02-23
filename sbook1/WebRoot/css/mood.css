@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.update_mood_content{
+	/*border:1px solid red;*/
+	width:770px;
+	margin:0 auto;
+	/*height:700px;*/
+}
+.update_mood_content_border{
+	border:1px solid #F0E4C0;
+	width:765px;
+	margin:0 auto;
+	/*height:167px;*/
+	margin-top:10px;
+}

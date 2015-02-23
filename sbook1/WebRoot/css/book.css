@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+/*已有同学录的好友样式*/
+.book_unread{
+	margin-top:10px;
+	width:770px;
+	border:1px solid gray;
+}
+.book_unread_content tr td a{
+	color:green;
+}
+.book_unread_content{
+	display:none;
+}
+/*未有同学录的好友样式*/
+.book_read{
+	margin-top:10px;
+	width:770px;
+	border:1px solid gray;
+}
+.book_read_content tr td a{
+	color:green;
+}
+.book_read_content{
+	display:none;
+}
+/*下面是选择同学录样式的css*/
+.book_border{
+	border:1px solid #808080;
+	padding:10px;
+	height:380px;
+	float:left;
+}
+.book_style{
+	font-size:13px;
+	/*border-bottom:1px solid #EBE2C7;*/
+	height:100px;
+	width:750px;
+	margin-top:5px;
+	margin-bottom:8px;
+	float:left;
+}
+.style_content{
+	border:1px solid #EBE2C7;
+	width:750px;
+	float:left;
+}
+.book_style_1{
+	margin-right:5px;
+	text-align:center;
+	border:3px solid #FAF1D4;
+	width:80px;
+	height:100px;
+	float:left;
+}
+/*显示大图风格的样式*/
+.book_large_size{
+	display:none;/*初始为隐藏*/
+	border:4px solid #EBE2C7;
+	width:450px;
+	height:470px;
+	position:fixed;
+	top:10px;
+	left:900px;
+}
+/*邀请好友填写的样式*/
+.invit_border{
+	border:1px solid gray;
+	width:770px;
+	height:400px;
+}
+/*下面是编辑同学录的样式*/
+.book_write2_all2{
+	border:1px solid red;
+	width:960px;
+	height:600px;
+	margin:0 auto;
+}
+.book_write_content{/* "仿宋";  "方正舒体";*/
+	/*font-family: "方正舒体";*/
+	font-family: "仿宋";
+	font-size:16px;
+	/*background-image:url(../book_styles/book_style5.jpg);*/
+	color:red;
+	/*color:#FF6600;*/
+	border:1px solid gray;
+	width:770px;
+	/*height:500px;*/
+}
+.book_write_content table tr td{
+	text-align:left;
+}
+.book_write_content input{
+	/*background-color:#FEEDB7;*/
+	
+	border:none;
+	border-bottom:1px solid silver;
+	/*border-bottom:1px solid gray;*/
+	color:gray;
+}

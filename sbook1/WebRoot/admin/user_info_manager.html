@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户管理</title>
+<link href="user_info_manager.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="all">
+    	<div class="top">
+        	<div class="top_link"><span>您好puguole，欢迎使用同学录管理系统！&nbsp;<a href="#">[网站前台]</a><a href="#">[退出登录]</a><a href="#">[注销登录]</a></span></div>
+            <div class="top_menu">
+            	<ul>
+                	<li><a href="#" style="background-color:#226411;">用户管理</a></li>
+                    <li><a href="#">心情管理</a></li>
+                    <li><a href="#">日志管理</a></li>
+                    <li><a href="#">照片管理</a></li>
+                    <li><a href="#">邮件管理</a></li>
+                    <li><a href="#">悄悄话管理</a></li>
+                    <li><a href="#">系统消息</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="left">
+        	<div class="left1">
+            	<div style="font-size:13px; padding-top:37px; padding-left:25px;"><a href="#">用户信息管理</a></div>
+                <div style="font-size:13px; padding-top:6px; padding-left:25px;"><a href="#">发布系统消息</a></div>
+                <div style="font-size:13px; padding-top:7px; padding-left:25px;"><a href="#">删除用户信息</a></div>
+            </div>
+            <div class="left2">
+           	 	<div style="font-size:13px; padding-top:34px; padding-left:25px;"><a href="#">前台网站</a></div>
+                <div style="font-size:13px; padding-top:7px; padding-left:25px;"><a href="#">使用说明</a></div>
+            </div>
+        </div>
+        <div class="left_splite"></div>
+        <div class="content">
+        	<div class="user_info_title">
+            	<span>&nbsp;&nbsp;用户信息列表</span>
+                <table border="1" cellspacing="0" bordercolor="#D1DDAA" width = "80%" style="border-collapse:collapse;" >
+                	<tr bgcolor="#ffffff"><td>选择</td><td>用户名</td><td>用户邮件</td><td>年龄</td><td>性别</td><td>就读院校</td><td>曾读院校</td><td>生日</td><td>QQ号</td><td>手机号码</td><td>修改</td><td>删除</td></tr>
+                    <tr><td><input type="checkbox"/></td><td>puguole</td><td>puguole@sohu.com</td><td>21</td><td>男</td><td>吉首大学</td><td>州民中</td><td>19930706</td><td>458116751</td><td>15074477469</td><td><a href="user_info_update.html">修改</a></td><td><a href="#">删除</a></td></tr>
+                    <tr><td><input type="checkbox"/></td><td>puguole</td><td>puguole@sohu.com</td><td>21</td><td>男</td><td>吉首大学</td><td>州民中</td><td>19930706</td><td>458116751</td><td>15074477469</td><td><a href="#">修改</a></td><td><a href="#">删除</a></td></tr>
+                    <tr><td><input type="checkbox"/></td><td>puguole</td><td>puguole@sohu.com</td><td>21</td><td>男</td><td>吉首大学</td><td>州民中</td><td>19930706</td><td>458116751</td><td>15074477469</td><td><a href="#">修改</a></td><td><a href="#">删除</a></td></tr>
+                    <tr><td><input type="checkbox"/></td><td>puguole</td><td>puguole@sohu.com</td><td>21</td><td>男</td><td>吉首大学</td><td>州民中</td><td>19930706</td><td>458116751</td><td>15074477469</td><td><a href="#">修改</a></td><td><a href="#">删除</a></td></tr>
+                    
+                    <tr><td colspan="12">&nbsp;<input style="background-color:#EFF7D0;" type="button" value="全选"/>&nbsp;<input style="background-color:#EFF7D0;" type="button" value="取消"/>&nbsp;<input style="background-color:#EFF7D0;" type="button" value="删除"/></td></tr>
+                </table>
+                <div class="content_bottom"></div>
+                <div class="content_search">
+                <span style="margin-left:60px;">搜索条件：</span>
+                <select>
+                	<option>选择类型</option>
+                    <option>名称</option>
+                </select>
+                关键字：<input type="text"/>
+                发布时间：
+                <select>
+                	<option>排序</option>
+                    <option>发布时间</option>
+                </select>
+                <input type="button" value="搜索"/>
+                </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>

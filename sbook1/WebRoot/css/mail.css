@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.mail_no_read{
+	margin-top:10px;
+	width:770px;
+	border:1px solid gray;
+}
+.mail_no_read table td{
+	font-size:13px;
+	line-height:30px;
+}
+.mail_botton_systeminfor_yes{
+	margin-top:10px;
+	width:770px;
+	border:1px solid gray;
+}
+.mail_botton_systeminfor_yes table td{
+	font-size:13px;
+	line-height:30px;
+}
+.showfriends{/*显示好友的样式*/
+float:right;
+height:15px;
+width:100px;
+position:relative;
+display:none;/*一开始不显示，鼠标放在上面就显示出来*/
+}
+.showfriends ul{
+	margin:0;
+	padding:0;
+}
+.showfriends ul li{
+	list-style-type:none;
+}
+.mail_no_read_content{/*这个是显示未读邮件的div样式，初始为隐藏*/
+	display:none;
+}
+.mail_botton_systeminfor_yes_content{
+	display:none;
+}

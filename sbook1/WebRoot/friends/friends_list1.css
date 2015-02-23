@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#listhead{
+	width:777px;
+	height:38px;
+	background-image:url(../images/listhead.png);
+}
+
+div#friendslist{
+	width:777px;
+	height:540px;
+	border-color:#000;
+}
+div#peoplesearch{
+	width:777px;
+	height:550px;
+}
+div#recommendhead{
+	width:777px;
+	height:38px;
+	background-image:url(../images/recommendhead1.png);
+}
+div#recommend{
+	width:780px;
+	height:540px;
+	border-color:#000;
+}
+div#searchlogo{
+	widows:777px;
+	height:38px;
+	background-image:url(../images/searchhead.png);
+}
+.box{ 
+      border:1px solid #84CB4F;
+	  float:left;
+	  width:775px;
+}
+.title{
+	height:30px;
+	width:775px;
+	line-height:30px;
+	background:#84CB4F;
+	font-weight:bold;
+	font-size:18px;
+	/*float:left;*/
+}
+
+.down{
+	float:left;
+	width:18px;
+	height:18px;
+	background:url(../images/arrow.png) no-repeat;
+	margin-top:0px;
+	margin-left:5px;
+}
+.up{
+	float:left;
+	width:18px;
+	height:18px;
+	background:url(../images/arrowdown.png) no-repeat;
+	margin-top:0px;
+	margin-left:5px;
+}
+.text{
+	line-height:30px;
+	padding:0 6px;
+	color:#666;
+}
+.clearFloat{
+	clear:both;
+}

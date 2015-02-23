@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+.log_top{
+	width:770px;
+	height:60px;
+	float:left;
+}
+.log_top_picture{
+	padding-top:5px;
+	width:60px;
+	height:60px;
+	float:left;
+}
+.log_top_content{
+	width:708px;
+	height:57px;
+	float:left;
+	font-size:13px;
+	padding-top:3px;
+}
+.log_botton{
+	margin-top:25px;
+	width:770px;
+	float:left;
+	/*border:1px solid yellow;*/
+}
+.log_menu{
+	width:770px;
+	height:33px;
+}
+.log_menu ul{
+	font-size:14px;
+	margin:0px;
+	padding:0px;
+}
+.log_menu ul li{
+	list-style-type:none;
+	float:left;
+	width:112px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	background-color:#6CC423;/*浅绿色*/
+	margin-right:6px;
+}
+.log_menu ul li a{
+	color:white;
+}
+.log_botton_freindslog{
+	width:770px;
+}
+.log_botton_freindslog_no{
+	padding-top:20px;
+	line-height:25px;
+	margin-top:40px;
+	padding-left:30px;
+	border:1px #8CDA5C dotted;
+	width:720px;
+	height:100px;
+}
+.log_botton_freindslog_yes{
+	border-left:1px #8CDA5C solid;
+	border-right:1px #8CDA5C solid;
+	font-size:14px;
+}
+.log_botton_freindslog_yes table{
+	text-align:center;
+}
+.log_botton_freindslog_yes table td{
+	border-bottom:1px dotted #CCCCCC;
+}
+.log_botton_freindslog_yes table td{
+	width:190px;
+}
+/*下面是我的日志样式*/
+.log_botton_mylog_yes{
+	margin-top:15px;
+	font-size:14px;
+}
+.log_botton_mylog_yes table{
+	width:700px;
+}
+.log_botton_mylog_yes table tr{
+	height:30px;
+	line-height:20px;
+}
+.log_botton_mylog_yes table td{
+	border-bottom:1px dotted #CCCCCC;
+}
+/*下面为写日志页面样式*/
+.log3_write{
+	width:770px;
+	height:550px;
+	border:1px solid gray;
+	float:left;
+}
+.log3_write_in{
+	color:gray;
+	font-size:12px;
+	margin-left:30px;
+	margin-top:8px;
+	width:710px;
+	height:400px;
+	/*border:1px red solid;*/
+	float:left;
+}
+.log3_write_in tr{
+	height:30px;
+}
+/*下面是显示日志界面的样式*/
+.log_write_logcontent{
+	padding-top:4px;
+	margin-top:4px;
+	background-color:white;
+	width:770px;
+	/*border:1px solid gray;*/
+	float:left;
+	color:#666666;
+}
+.log_write_writecomment{/*写评论的div样式*/
+	margin-top:20px;
+	width:770px;
+	height:190px;
+	border:1px solid #CCCCCC;
+	float:left;
+}
+.log_write_writecomment_in{
+	font-size:14px;
+	margin-top:10px;
+	margin-left:10px;
+	width:720px;
+	height:188px;
+	/*border:1px solid #CCCCCC;*/
+	float:left;
+}

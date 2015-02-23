@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>查看资料</title>
+<style type="text/css">
+body{
+	background-color:#FAF1D4;
+}
+.ptop {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 50px;
+	width: 960px;
+	background-color: #090;
+	margin: auto;    /** 设置div的居中 **/
+}
+.pboton {
+	background-image: url(../images/personbackgroud.jpg);
+	background-repeat: no-repeat;
+	float: none;
+	width: 960px;
+	height: 570px;
+	margin: auto;
+}
+.a{
+	color: #030;
+	margin: auto;
+	width: 800px;
+	padding-top: 20px;
+	font-family: "华文楷体";
+	font-weight: bold;
+}
+.a1{
+	font-size: 20px;
+}
+.ptop {
+	margin: auto;
+	height: 50px;
+}
+
+.a2 {
+	height: 450px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.a３{
+	font-size: 18px;
+}
+.aa {
+	font-size: 36px;
+	padding-bottom: 50px;
+}
+</style>
+<script src="../SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="ptop"><div style=" margin-right:30px; margin-top:20px; float:right;width:150px; height:30px; border:0px ;"><a href="#" style="color:#FFFFFF;">登录</a> <a href="../index/index.html" style="color:#FFFFFF;">返回首页面</a></div></div>
+<div class="pboton">
+ <div class="a"> <div class="a1">  　　　　<span class="aa">个人资料显示</span></div>
+   <div class="a2"><form action="personal2.html" method="get" enctype="multipart/form-data">
+     <table width="802" height="453" border="0" align="left" class="a1" >
+  <tr>
+    <td width="191" height="17"> 　　　　姓名：</td>
+    <td width="330"><label for="textfield3"></label>
+      <input name="textfield3" type="text" id="textfield3" readonly="readonly" /></td>
+    <td width="235" rowspan="5"><input type="image" name="imageField" id="imageField" src="../personalimage/1.jpg" height="170" width="140"/></td>
+  </tr>
+  <tr>
+    <td width="191" height="19"> 　　用户昵称：</td>
+    <td><label for="textfield"></label>
+      <input name="textfield" type="text" id="textfield" readonly="readonly" /></td>
+  </tr>
+  <tr>
+    <td height="39">　　　　年龄：</td>
+    <td><label for="age"></label>
+      <input name="age" type="text" id="age" readonly="readonly" /></td>
+    <td width="28">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="42">　　　　性别：</td>
+    <td><input name="radio" type="radio" id="sex" value="sex" checked="checked" />
+      <label for="sex">男
+        <input type="radio" name="radio" id="sex2" value="sex2" />
+        女
+      </label></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="39">　　就读院校：</td>
+    <td><label for="school"></label>
+      <input name="school" type="text" id="school" readonly="readonly" /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="35">　　曾读院校：</td>
+    <td><label for="#"></label>
+      <input name="#" type="text" id="#" readonly="readonly" /></td>
+    <td>　个人头像</td>
+    </tr>
+  <tr>
+    <td height="24">　　　　生日：</td>
+    <td><label for="textfield7"></label>
+      <input name="textfield7" type="text" id="textfield7" readonly="readonly" /></td>
+  </tr>
+  <tr>
+    <td height="11">　　　QQ号：</td>
+    <td><label for="textfield2"></label>
+      <input name="textfield2" type="text" id="textfield2" readonly="readonly" /></td>
+  </tr>
+  <tr>
+    <td height="12">　　手机号码：</td>
+    <td><label for="textfield4"></label>
+      <input name="textfield4" type="text" id="textfield4" readonly="readonly" /></td>
+  </tr>
+  <tr>
+    <td height="25">　　　　邮箱：</td>
+    <td><label for="textfield6"></label>
+      <input name="textfield6" type="text" id="textfield6" readonly="readonly" /></td>
+  </tr>
+  <tr>
+    <td height="48">　　　座右铭：</td>
+    <td colspan="2"><label for="textfield"></label>
+      <label for="textarea"></label>
+      <label for="textfield5"></label>
+      <textarea name="textfield5" cols="60" readonly="readonly" id="textfield5"></textarea></td>
+    </tr>
+  
+  <tr>
+    <td height="50"></td>
+    <td></td>
+    <td><a href="personal1.html">编辑我的资料</a></td>
+  </tr>
+  </table>
+</form></div>
+ </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+.all{
+	width:1000px;
+	height:620px;
+	margin:0 auto;
+	/*border:1px solid red;	*/
+}
+.top{
+	width:1000px;
+	height:57px;
+	/*border:1px solid red;*/
+	margin:0 auto;
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	background-color:#9ED178;
+	border-bottom:4px solid green;
+}
+.top_link{
+	font-size:13px;
+	/*border:1px solid red;*/
+	height:25px;
+	width:460px;
+	float:right;
+	line-height:25px;
+}
+.top_link a{
+	color:black;
+}
+.top_link a:hover{
+	color:red;
+}
+.top_menu{
+	width:650px;
+	height:30px;
+	float:right;
+	/*border:1px solid red;*/
+}
+.top_menu ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	width:630px;
+	height:30px;
+}
+.top_menu ul li{
+	float:left;
+	width:90px;
+	text-align:center;
+	background-color:#58A330;
+	
+}
+.top_menu ul li a{
+	text-decoration:none;
+	line-height:30px;
+	border-right:solid 1px #FFF;
+	display:block;
+	color:white;
+}
+.top_menu ul li a:hover{
+	font-weight:bolder;
+	background-color:#226411;
+}
+.left{
+	/*border:1px solid yellow;*/
+	width:160px;
+	height:556px;
+	float:left;
+	background-color:#9AD075;
+}
+.left1{
+	/*border:1px solid red;*/
+	width:148px;
+	height:103px;
+	margin:0 auto;
+	margin-top:6px;
+	background-image:url(images/left1.png);
+}
+.left1 a{
+	color:black;
+	text-decoration:none;
+}
+.left1 a:hover{
+	color:red;
+}
+.left2{
+	width:150px;
+	height:79px;
+	margin:0 auto;
+	margin-top:6px;
+	background-image:url(images/left2.png);
+}
+.left2 a{
+	color:black;
+	text-decoration:none;
+}
+.left2 a:hover{
+	color:red;
+}
+.left_splite{
+	height:556px;
+	width:18px;
+	float:left;
+	background-image:url(images/bg_splite.png);
+}
+.content{
+	width:804px;
+	height:551px;
+	border:1px solid #D1DDAA;
+	float:right;
+	margin-top:5px;
+}
+.user_info_title{
+	width:804px;
+	height:27px;
+	/*border:1px solid #D1DDAA;*/
+	float:right;
+	background-color:#E7E7E7;
+	font-size:13px;
+	line-height:27px;
+}
+.content table{
+	float:right;
+	width:786px;	
+}
+.content_bottom{
+	background-color:#EEF4EA;
+	width:804px;
+	height:37px;
+	float:right;
+	margin-top: 10px;
+}
+.content_search{
+	margin-top:10px;
+	background-color:#EEF4EA;
+	width:804px;
+	height:23px;
+	float:left;
+	line-height:23px;
+}
+.user_info_update_content{
+	margin-top:10px;
+	/*border:1px solid #D1DDAA;*/
+	width:803px;
+	height:262px;	
+}
+.user_info_update_content table{
+	height:250px;
+}
